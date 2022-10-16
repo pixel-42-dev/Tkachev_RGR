@@ -1,0 +1,219 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.box {
+    padding: 0;
+    margin: 0;
+    width: 2662px;
+    height: 1497px;
+    background-image: url(img/BG.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 87px 93px 0 114px;
+}
+.header-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: -16px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 37px;
+    letter-spacing: 0.4px;
+    width: 948px;
+}
+.header-list-one {
+    padding: 0 98px 0 0;
+}
+.header-list-two {
+    padding: 0 83px 0 0;
+}
+.header-list-three {
+    padding: 0 105px 0 0;
+}
+.header-list-four {
+    padding: 0 86px 0 0;
+}
+.header-list-five {
+    padding: 0;
+}
+.logo {
+    display: block;
+    background-image: url(img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 391px;
+    height: 122px;
+}
+
+
+
+main {
+    text-align: right;
+    padding: 0 93px 0 0;
+    margin-top: 183px;
+}
+main h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #e3bf03;
+    font-size: 160px;
+    letter-spacing: -2.1px;
+    line-height: 187px;
+    margin-bottom: 0px;
+}
+main h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+    letter-spacing: -1px;
+    margin-top: -6px;
+    margin-bottom: 0;
+}
+main p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    letter-spacing: -0.3px;
+    line-height: 45px;
+    margin-top: 30px;
+}
+
+
+
+footer {
+    text-align: right;
+    margin-top: 240px;
+}
+.contacts-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: auto;
+    margin-right: -20px;
+    width: 400px;
+}
+.contacts-list li {
+    height: 50px;
+    width: 52px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+.contacts-one {
+    background-image: url(img/Instagram.png);
+}
+.contacts-two {
+    background-image: url(img/Facebook.png);
+}
+.contacts-three {
+    background-image: url(img/Twitter.png);
+}
+.contacts-four {
+    background-image: url(img/WhatsApp.png);
+}
+.link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    letter-spacing: -0.3px;
+    margin-right: 93px;
+    margin-top: 20px;
+}
+
+
+
+.image {
+    background-image: url(img/Image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    height: 1691px;
+    width: 1259px;
+    position: absolute;
+    top: 206px;
+    left: 34px;
+}
+.dots {
+    background-image: url(img/myDots.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 782px;
+    left: 1235px;
+}
+
+
+
+@media(max-width: 770px) {
+    .box {
+        width: 100%;
+    }
+    .logo {
+        display: none;
+    }
+    .header-list {
+        font-size: 18px;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    .header-list li {
+        padding: 5px;
+        margin: 0 auto;
+    }
+    .image {
+        display: none;
+    }
+    main h1 {
+        font-size: 40px;
+        letter-spacing: 0;
+        line-height: 45px;
+    }
+    main h2 {
+        font-size: 20px;
+        letter-spacing: 0;
+        margin-top: 10px;
+    }
+    main p {
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: 20px;
+    }
+    .box {
+        background-size: cover;
+    }
+    .contacts-list li {
+        height: 40px;
+        width: 41px;
+        padding-left: 15px;
+    }
+    .contacts-list {
+        margin-right: -90px;
+        width: 400px;
+    }
+    .jq {
+        margin-top: 110px;
+    }
+    .link {
+        font-size: 15px;
+        margin-right: 100px;
+    }
+}
